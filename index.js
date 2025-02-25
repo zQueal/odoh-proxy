@@ -6,9 +6,9 @@ const FWD_BUFFERED = 2;
 const FWD_CLONED = 1;
 const HDR_CONTENT_LEN = "Content-Length";
 const ODOH_METHOD = "POST";
-const ODOH_TARGETHOST = "targethost";
-const ODOH_TARGETPATH = "targetpath";
-const ODOH_ENDPOINT_NAME = "RethinkDNS";
+const ODOH_TARGETHOST = "https://dns.google";
+const ODOH_TARGETPATH = "dns-query";
+const ODOH_ENDPOINT_NAME = "rethink";
 
 const ODOH_HDR_ACCEPT = { Accept: "application/oblivious-dns-message" };
 const ODOH_HDR_CONTENT_TYPE = {
